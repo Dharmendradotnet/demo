@@ -7,7 +7,7 @@ phases:
       - aws --version
       - docker --version
       - set
-      - aws ecr get-login-password
+      - aws ecr get-login-password --debug
   build:
     commands:
       - echo Build started on `date`
